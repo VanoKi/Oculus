@@ -83,4 +83,5 @@ body {
   justify-content: center;
   bottom: 0;
   right: -2px;
+  line-height: 0;
 }
