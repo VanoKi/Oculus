@@ -169,3 +169,8 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
+.tabs {
+  display: grid;
+  grid-template-columns: 300px auto;
+}
+
