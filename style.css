@@ -35,6 +35,16 @@ img{
   max-width: 100%;
 }
 
+button {
+  color: inherit;
+  font-size: inherit;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0;
+}
+
 .container {
   max-width: 1220px;
   padding: 0 10px;
@@ -173,4 +183,6 @@ body {
   display: grid;
   grid-template-columns: 300px auto;
 }
+
+.tabs__btn
 
