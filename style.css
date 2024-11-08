@@ -54,7 +54,8 @@ body {
 }
 
 .nav {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   align-items: center;
   height: 80px;
@@ -65,8 +66,13 @@ body {
   gap: 0 20px;
 }
 
+.logo {
+  justify-self: center;
+}
+
 .basket {
   position: relative;
+  justify-self: end;
 }
 
 .basket span {
@@ -127,9 +133,15 @@ body {
 .buy-bnt__text {
   color: #f6f4f5;
   padding: 20px 110px;
+  text-transform: uppercase;
 }
 
 .buy-bnt__price {
   background: #f6f4f5;
   padding: 20px 105px;
 }
+
+.features {
+  padding: 100px 0;
+}
+
