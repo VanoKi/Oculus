@@ -20,5 +20,5 @@ function open(event) {
     })
 
     tabTarget.classList.add('tabs__btn__item--active')
-    document.querySelectorAll(`#${button}`).classList.add('tabs__btn__item--active')
+    document.querySelector(`#${button}`).classList.add('tabs__content__item--active')
 }
