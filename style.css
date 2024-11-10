@@ -211,6 +211,7 @@ body {
   gap: 40px;
   opacity: 0;
   position: absolute;
+  transition: opacity .3s ease;
 }
 
 .tabs__content__item--active {
