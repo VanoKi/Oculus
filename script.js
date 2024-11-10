@@ -16,7 +16,7 @@ function open(event) {
     })
 
     tabContent.forEach(function (item) {
-        item.classList.remove('tabs__btn__item--active')
+        item.classList.remove('tabs__content__item--active')
     })
 
     tabTarget.classList.add('tabs__btn__item--active')
