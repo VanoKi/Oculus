@@ -405,5 +405,18 @@ body {
 
 .promo {
   margin-bottom: 100px;
-  background: url("images/promo.jpg");
+}
+
+.promo__inner {
+  background-image: url("images/promo.jpg");
+  min-height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.promo_btn {
+  font-weight: 700;
+  color: white;
+
 }
