@@ -380,7 +380,7 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-template-rows: repeat(2, 1fr);
-  gap: 20px 30px;
+  gap: 20px;
 }
 
 .equipment__box-img {
@@ -397,4 +397,8 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 50px;
+}
+
+.equipment__box-item--one {
+  grid-row: 1/-1;
 }
