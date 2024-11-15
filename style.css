@@ -402,3 +402,8 @@ body {
 .equipment__box-item--one {
   grid-row: 1/-1;
 }
+
+.promo {
+  margin-bottom: 100px;
+  background: url("images/promo.jpg");
+}
