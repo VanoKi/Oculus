@@ -418,5 +418,8 @@ body {
 .promo_btn {
   font-weight: 700;
   color: white;
-
+  border-radius: 100%;
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  width: 50px;
+  height: 50px;
 }
