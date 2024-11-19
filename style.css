@@ -480,3 +480,10 @@ body {
   font-size: 24px;
   color: var(--black);
 }
+
+.accessories__item-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--grey);
+}
