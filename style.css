@@ -12,6 +12,15 @@
   font-weight: 700;
 }
 
+:root {
+  --grey: #5c5c5e;
+  --white: #f6f4f5;
+  --light-grey: #cacad6;
+  --black: #070707;
+  --font-family: "Helvetica", sans-serif;
+  --second-family: "Inter", sans-serif;
+}
+
 html {
   box-sizing: border-box;
 }
